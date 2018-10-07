@@ -6,7 +6,7 @@ def decorator(arg1):
         return wrapper
     return decorator
 
-@decorator("ciao")
+@decorator("Hello")
 def somma(x, y):
     return x+y
 
